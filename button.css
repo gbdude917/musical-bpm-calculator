@@ -1,0 +1,102 @@
+body{
+    margin: auto;
+    background-color: #222831;
+}
+
+.header{
+    border: solid;
+    position: relative;
+    margin: auto;
+    width: 60%;
+    height: 10%;
+    background-color: #393E46;
+    text-align: center;
+}
+
+.mainRegion{
+    border: solid;
+    position: relative;
+    margin: auto;
+    margin-bottom: 50px;
+    width: 85%;
+    background-color: #00ADB5;
+    border-radius: 5%;
+}
+
+.mainText, .bpm, h2{
+    text-align: center;
+}
+
+h1{
+    font-size: 5.5em;
+
+}
+
+.bpm{
+    font-size: 4em;
+    margin: auto;
+    margin-top: 5px;   
+}
+
+.divButton{
+    text-align: center;
+    margin: 50px;
+}
+
+.button{
+    width: 50%;
+    height: 2.5em;
+    font-size: 3em;
+    border-radius: 5%;
+}
+
+.divReset{
+    text-align: center;
+    margin: 50px;
+}
+
+.reset{
+    width: 4em;
+    height: 2em;
+    font-size: 2em;
+    border-radius: 5%;
+}
+
+a:link{
+    color: blue;
+    text-decoration: none;
+}
+
+a:visited{
+    color: blue;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.desc{
+    border: solid;
+    position: relative;
+    width: 50%;
+    height: 200px;
+    margin: auto;
+    margin-bottom: 50px;
+    background-color: #EEEEEE;
+    border-radius: 5%;
+}
+
+.descContents{
+    text-align: center;
+}
+
+.instructions{
+    border: solid green;
+    position: relative;
+    width: 50%;
+    height: 200;
+    margin: auto;
+    margin-bottom: 50px;
+    background-color: #EEEEEE;
+    border-radius: 5%;
+}
