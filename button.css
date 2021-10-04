@@ -1,6 +1,12 @@
 body{
     margin: auto;
-    background-color: #222831;
+    /* background: #DEFCF9; */
+    background-image: linear-gradient(rgba(204, 168, 233, 0.5), rgba(222, 252, 249, 0.5)), url("tropical.jpg");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .header{
@@ -9,7 +15,7 @@ body{
     margin: auto;
     width: 60%;
     height: 10%;
-    background-color: #393E46;
+    background-color: #CADEFC;
     text-align: center;
 }
 
@@ -19,7 +25,7 @@ body{
     margin: auto;
     margin-bottom: 50px;
     width: 85%;
-    background-color: #00ADB5;
+    background-color: #CCA8E9;
     border-radius: 5%;
 }
 
@@ -82,7 +88,7 @@ a:hover{
     height: 200px;
     margin: auto;
     margin-bottom: 50px;
-    background-color: #EEEEEE;
+    background-color: #C3BEF0;
     border-radius: 5%;
 }
 
@@ -91,12 +97,12 @@ a:hover{
 }
 
 .instructions{
-    border: solid green;
+    border: solid;
     position: relative;
     width: 50%;
     height: 200;
     margin: auto;
     margin-bottom: 50px;
-    background-color: #EEEEEE;
+    background-color: #C3BEF0;
     border-radius: 5%;
 }
