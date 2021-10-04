@@ -26,7 +26,7 @@ button.onclick = function (){
     output = total / count;              // Next, average out the bpm values calculated between clicks to get a more accurate bpm reading over time 
 
     if(bpm == Number.POSITIVE_INFINITY){ // Skip display for first click since it always resolves to infinity
-        disp.innerHTML = "Start Tapping the Button Below";
+        disp.innerHTML = "Start Tapping the Button";
     }else{
         disp.innerHTML = bpm.toFixed(0);
     }
